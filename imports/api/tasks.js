@@ -14,6 +14,7 @@ if (Meteor.isServer) {
         { owner: this.userId },
       ],
     });
+  });
 }
 Meteor.methods({
   'tasks.insert'(text) {
